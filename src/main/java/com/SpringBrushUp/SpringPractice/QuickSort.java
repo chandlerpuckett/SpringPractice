@@ -1,6 +1,10 @@
 package com.SpringBrushUp.SpringPractice;
 
-public class QuickSort {
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+public class QuickSort implements SortAlgorithm{
     public int[] sort (int[] numbers){
 //        logic for sort
         return numbers;
